@@ -123,17 +123,17 @@ public class Orders {
     }
 
     public String getPayTypeStr() {
-        if(orderStatus==0)
+        if(payType==0)
         {
-            orderStatusStr = "支付宝";
+            payTypeStr = "支付宝";
         }
-        else if(orderStatus==1)
+        else if(payType==1)
         {
-            orderStatusStr = "微信";
+            payTypeStr = "微信";
         }
-        else if(orderStatus==2)
+        else if(payType==2)
         {
-            orderStatusStr = "未支付";
+            payTypeStr = "未支付";
         }
         return payTypeStr;
     }

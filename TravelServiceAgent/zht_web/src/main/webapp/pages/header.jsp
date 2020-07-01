@@ -6,7 +6,7 @@
 	<!-- Logo -->
 	<a href="all-admin-index.html" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
 		<span class="logo-mini"><b>数据</b></span> <!-- logo for regular state and mobile devices -->
-		<span class="logo-lg"><b>数据</b>后台管理</span>
+		<span class="logo-lg"><b>旅行社</b>后台管理</span>
 	</a>
 	<!-- Header Navbar: style can be found in header.less -->
 	<nav class="navbar navbar-static-top">
@@ -20,16 +20,16 @@
 
 				<li class="dropdown user user-menu"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown"> <img
-						src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+						src="${pageContext.request.contextPath}/img/user13.jpg"
 						class="user-image" alt="User Image"> <span class="hidden-xs">
-							xxx
+							Andrew
 					</span>
 
 				</a>
 					<ul class="dropdown-menu">
 						<!-- User image -->
 						<li class="user-header"><img
-							src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+							src="${pageContext.request.contextPath}/img/user13.jpg"
 							class="img-circle" alt="User Image"></li>
 
 						<!-- Menu Footer-->

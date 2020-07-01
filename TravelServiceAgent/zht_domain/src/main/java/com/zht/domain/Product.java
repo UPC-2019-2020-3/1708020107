@@ -1,7 +1,9 @@
 package com.zht.domain;
 
 import com.zht.utils.DateUtils;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class Product {
@@ -10,6 +12,7 @@ public class Product {
     private String productNum;
     private String productName;
     private String cityName;
+    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private Date departureTime;
     private String departureTimeStr;
     private double productPrice;

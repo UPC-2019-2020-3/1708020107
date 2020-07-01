@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,12 +39,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\img" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\pages" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\resources" />
       <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,34 +98,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593532262749" />
-    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1593508763950">
+    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1593598360338">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593508763950" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1593504471573">
+    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593598360338" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1593592175302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593504471573" />
-    <state width="1237" height="29" key="GridCell.Tab.0.bottom" timestamp="1593534804372">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593592175302" />
+    <state width="1237" height="70" key="GridCell.Tab.0.bottom" timestamp="1593609424788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="29" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
-    <state width="1237" height="29" key="GridCell.Tab.0.center" timestamp="1593534804372">
+    <state width="1237" height="70" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593609424788" />
+    <state width="1237" height="70" key="GridCell.Tab.0.center" timestamp="1593609424788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="29" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
-    <state width="1237" height="29" key="GridCell.Tab.0.left" timestamp="1593534804372">
+    <state width="1237" height="70" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593609424788" />
+    <state width="1237" height="70" key="GridCell.Tab.0.left" timestamp="1593609424788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="29" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
-    <state width="1237" height="29" key="GridCell.Tab.0.right" timestamp="1593534804372">
+    <state width="1237" height="70" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593609424788" />
+    <state width="1237" height="70" key="GridCell.Tab.0.right" timestamp="1593609424788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="29" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
-    <state x="339" y="43" width="603" height="594" key="find.popup" timestamp="1593533550561">
+    <state width="1237" height="70" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593609424788" />
+    <state x="339" y="43" width="629" height="594" key="find.popup" timestamp="1593606387327">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="339" y="43" width="603" height="594" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593533550561" />
+    <state x="339" y="43" width="629" height="594" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593606387327" />
     <state x="28" y="1" key="new project wizard" timestamp="1593507845120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

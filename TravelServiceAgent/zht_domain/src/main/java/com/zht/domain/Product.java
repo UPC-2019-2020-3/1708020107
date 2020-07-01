@@ -1,5 +1,7 @@
 package com.zht.domain;
 
+import com.zht.utils.DateUtils;
+
 import java.util.Date;
 
 public class Product {
@@ -56,6 +58,10 @@ public class Product {
     }
 
     public String getDepartureTimeStr() {
+        if(departureTime!=null)
+        {
+            departureTimeStr = DateUtils.date2String(departureTime,"yyyy-MM-dd HH:mm:ss");
+        }
         return departureTimeStr;
     }
 
@@ -88,6 +94,13 @@ public class Product {
     }
 
     public String getProductStatusStr() {
+        if(productStatus!=null)
+        {
+            if(productStatus==0)
+                productStatusStr="关闭";
+            if(productStatus==1)
+                productStatusStr="开启";
+        }
         return productStatusStr;
     }
 

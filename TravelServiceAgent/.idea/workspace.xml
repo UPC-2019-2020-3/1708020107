@@ -32,15 +32,47 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zht_web/src/main/webapp/pages" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\pages" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="zht-ssm-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/zht_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,6 +92,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1593509000737" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593532262749">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593532262749" />
     <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1593508763950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -68,22 +104,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593504471573" />
-    <state width="1237" height="214" key="GridCell.Tab.0.bottom" timestamp="1593508246826">
+    <state width="1237" height="29" key="GridCell.Tab.0.bottom" timestamp="1593534804372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593508246826" />
-    <state width="1237" height="214" key="GridCell.Tab.0.center" timestamp="1593508246826">
+    <state width="1237" height="29" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
+    <state width="1237" height="29" key="GridCell.Tab.0.center" timestamp="1593534804372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593508246826" />
-    <state width="1237" height="214" key="GridCell.Tab.0.left" timestamp="1593508246826">
+    <state width="1237" height="29" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
+    <state width="1237" height="29" key="GridCell.Tab.0.left" timestamp="1593534804372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593508246826" />
-    <state width="1237" height="214" key="GridCell.Tab.0.right" timestamp="1593508246826">
+    <state width="1237" height="29" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
+    <state width="1237" height="29" key="GridCell.Tab.0.right" timestamp="1593534804372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593508246826" />
+    <state width="1237" height="29" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593534804372" />
+    <state x="339" y="43" width="603" height="594" key="find.popup" timestamp="1593533550561">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="339" y="43" width="603" height="594" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593533550561" />
     <state x="28" y="1" key="new project wizard" timestamp="1593507845120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

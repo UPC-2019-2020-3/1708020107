@@ -1,2 +1,3 @@
 com\zht\controller\OrderController.class
+com\zht\controller\UserController.class
 com\zht\controller\ProductController.class

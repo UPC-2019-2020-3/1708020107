@@ -67,7 +67,7 @@ INSERT INTO `orders` VALUES ('2', '12346', '2020-04-15 11:15:17', 2, '没什么'
 -- ----------------------------
 DROP TABLE IF EXISTS `permission`;
 CREATE TABLE `permission`  (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `permissionName` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `url` varchar(100) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
@@ -113,7 +113,7 @@ INSERT INTO `product` VALUES (8, 'aaa', 'aaaaa', 'aaaaa', '2020-04-07', 18000, '
 -- ----------------------------
 DROP TABLE IF EXISTS `role`;
 CREATE TABLE `role`  (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `roleName` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `roleDesc` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
@@ -239,14 +239,14 @@ CREATE TABLE `users_role`  (
 INSERT INTO `users_role` VALUES (1, 1);
 INSERT INTO `users_role` VALUES (5, 1);
 INSERT INTO `users_role` VALUES (6, 1);
-INSERT INTO `users_role` VALUES (6862, 1);
+INSERT INTO `users_role` VALUES (7, 1);
 INSERT INTO `users_role` VALUES (1, 2);
 INSERT INTO `users_role` VALUES (2, 2);
 INSERT INTO `users_role` VALUES (3, 2);
 INSERT INTO `users_role` VALUES (4, 2);
 INSERT INTO `users_role` VALUES (5, 2);
 INSERT INTO `users_role` VALUES (6, 2);
-INSERT INTO `users_role` VALUES (6862, 2);
+INSERT INTO `users_role` VALUES (7, 2);
 
 SET FOREIGN_KEY_CHECKS = 1;
 

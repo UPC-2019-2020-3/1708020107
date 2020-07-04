@@ -44,4 +44,10 @@ public class UserController {
         return mv;
     }
 
+    @RequestMapping("/deleteUser.do")
+    public String deleteUser(@RequestParam(name="id",required = true) int userId) throws Exception {
+        userService.deleteUser(userId);
+        return "redirect:findAll.do";
+    }
+
 }

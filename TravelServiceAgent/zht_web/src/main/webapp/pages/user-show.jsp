@@ -112,7 +112,7 @@
 										<i class="fa fa-file-o"></i> 新建
 									</button>
 
-									<button type="button" class="btn btn-default" title="刷新">
+									<button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();">
 										<i class="fa fa-refresh"></i> 刷新
 									</button>
 								</div>
@@ -144,18 +144,18 @@
 
 								<tbody>
 									<c:forEach items="${user.roles}" var="role" varStatus="vs1">
-                                                                        <tr data-tt-id="${vs1.index+1}" data-tt-parent-id="0"">
-                                                                            <td>${role.roleName }</td>
-                                                                            <td>${role.roleDesc }</td>
-                                                                        </tr>
-                                                                        <c:forEach items="${role.permissions}" var="permission" varStatus="vs2">
-                                                                            <tr data-tt-id="${vs1.index+1}-${vs2.index+1}"
-                                                                                data-tt-parent-id="${vs1.index+1}">
-                                                                                <td>${permission.permissionName}</td>
-                                                                                <td>${permission.url}</td>
-                                                                            </tr>
-                                                                        </c:forEach>
-                                                                    </c:forEach>
+                                        <tr data-tt-id="${vs1.index+1}" data-tt-parent-id="0"">
+                                            <td>${role.roleName }</td>
+                                            <td>${role.roleDesc }</td>
+                                        </tr>
+                                        <c:forEach items="${role.permissions}" var="permission" varStatus="vs2">
+                                            <tr data-tt-id="${vs1.index+1}-${vs2.index+1}"
+                                            data-tt-parent-id="${vs1.index+1}">
+                                                <td>${permission.permissionName}</td>
+                                                <td>${permission.url}</td>
+                                            </tr>
+                                        </c:forEach>
+                                    </c:forEach>
 								</tbody>
 							</table>
 						</div>

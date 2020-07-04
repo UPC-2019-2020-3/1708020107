@@ -26,4 +26,9 @@ public class ProductServiceimpl implements iProductService {
     public void save(Product product) throws Exception {
         productDao.save(product);
     }
+
+    @Override
+    public void deleteProductById(int productId) {
+        productDao.deleteRoleById(productId);
+    }
 }

@@ -1,6 +1,10 @@
+com\zht\service\iPermissionService.class
 com\zht\service\iProductService.class
 com\zht\service\impl\UserServiceimpl.class
+com\zht\service\impl\RoleServiceimpl.class
 com\zht\service\impl\ProductServiceimpl.class
 com\zht\service\iUserService.class
+com\zht\service\iRoleService.class
 com\zht\service\iOrdersService.class
 com\zht\service\impl\OrdersServiceimpl.class
+com\zht\service\impl\PermissionServiceimpl.class

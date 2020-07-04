@@ -1,6 +1,7 @@
 package com.zht.dao;
 
 import com.zht.domain.Product;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 
@@ -18,4 +19,7 @@ public interface iProductDao {
     //根据id查产品
     @Select("select * from product where id=#{id}")
     public Product findById(String id) throws Exception;
+
+    @Delete("delete from product where id=#{productId}")
+    void deleteRoleById(int productId);
 }

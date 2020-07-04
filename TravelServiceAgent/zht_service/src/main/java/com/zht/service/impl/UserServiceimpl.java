@@ -73,4 +73,10 @@ public class UserServiceimpl implements iUserService {
     @Override
     public void addRoleToUser(String userId, String[] roleIds) {
     }
+
+    @Override
+    public void deleteUser(int id) throws Exception {
+        userDao.deleteFromUsers_role(id);
+        userDao.deleteUser(id);
+    }
 }

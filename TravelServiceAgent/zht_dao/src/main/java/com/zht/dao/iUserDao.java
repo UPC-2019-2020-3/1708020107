@@ -36,4 +36,11 @@ public interface iUserDao {
             @Result(property = "roles",column = "id",javaType = java.util.List.class,many = @Many(select = "com.zht.dao.iRoleDao.findRoleByUserId"))
     })
     UserInfo findById(int id) throws Exception;
+
+    @Delete("delete from users where id=#{id}")
+    void deleteUser(int id) throws Exception;
+
+    @Delete("delete from users_role where userId=#{id}")
+    void deleteFromUsers_role(int id) throws Exception;
+
 }

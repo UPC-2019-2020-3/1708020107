@@ -112,7 +112,7 @@
 											<i class="fa fa-file-o"></i> 新建
 										</button>
 										
-										<button type="button" class="btn btn-default" title="刷新">
+										<button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
 									</div>
@@ -156,6 +156,7 @@
 											<td class="text-center">
 												<a href="${pageContext.request.contextPath}/user/findById.do?id=${user.id}" class="btn bg-olive btn-xs">详情</a>
 												<a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${user.id}" class="btn bg-olive btn-xs">添加角色</a>
+											    <a href="${pageContext.request.contextPath}/user/deleteUser.do?id=${user.id}" class="btn bg-olive btn-xs" onclick='confirm("你确认要删除吗？")'>删除</a>
 											</td>
 										</tr>
 									</c:forEach>

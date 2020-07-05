@@ -1,8 +1,8 @@
 package com.zht.domain;
 
 import com.zht.utils.DateUtils;
-import org.springframework.format.annotation.DateTimeFormat;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -16,11 +16,14 @@ public class Orders {
     private String orderStatusStr;
     private int peopleCount;
     private Product product;
+    private int ProductId;
     private List<Traveller> travellers;
     private Member member;
     private Integer payType;
     private String payTypeStr;
     private String orderDesc;
+    private int auditStatus;
+    private String auditStr;
 
     public String getId() {
         return id;
@@ -38,18 +41,20 @@ public class Orders {
         this.orderNum = orderNum;
     }
 
-    public Date getOrderTime() {
+    public Date getOrderTime()
+    {
         return orderTime;
     }
 
-    public void setOrderTime(Date orderTime) {
+    public void setOrderTime(Date orderTime)
+    {
         this.orderTime = orderTime;
     }
 
     public String getOrderTimeStr() {
         if(orderTime!=null)
         {
-            orderTimeStr = DateUtils.date2String(orderTime,"yyyy-MM-dd HH:mm");
+            orderTimeStr = DateUtils.date2String(orderTime,"yyyy-MM-dd HH:mm:ss");
         }
         return orderTimeStr;
     }
@@ -96,6 +101,14 @@ public class Orders {
 
     public void setProduct(Product product) {
         this.product = product;
+    }
+
+    public int getProductId() {
+        return ProductId;
+    }
+
+    public void setProductId(int productId) {
+        ProductId = productId;
     }
 
     public List<Traveller> getTravellers() {
@@ -148,5 +161,29 @@ public class Orders {
 
     public void setOrderDesc(String orderDesc) {
         this.orderDesc = orderDesc;
+    }
+
+    public int getAuditStatus() {
+        return auditStatus;
+    }
+
+    public void setAuditStatus(int auditStatus) {
+        this.auditStatus = auditStatus;
+    }
+
+    public String getAuditStr() {
+        if(auditStatus==0)
+        {
+            auditStr = "未审核";
+        }
+        else if(auditStatus==1)
+        {
+            auditStr = "已审核";
+        }
+        return auditStr;
+    }
+
+    public void setAuditStr(String auditStr) {
+        this.auditStr = auditStr;
     }
 }

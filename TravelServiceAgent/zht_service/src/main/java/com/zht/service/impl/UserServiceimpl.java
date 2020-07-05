@@ -66,12 +66,15 @@ public class UserServiceimpl implements iUserService {
     }
 
     @Override
-    public List<Role> findOtherRoles(String userId) {
-        return null;
+    public List<Role> findOtherRoles(int userId) {
+        return userDao.findOtherRoles(userId);
     }
 
     @Override
-    public void addRoleToUser(String userId, String[] roleIds) {
+    public void addRoleToUser(int userId, int[] roleIds) throws Exception{
+        for(int roleId:roleIds){
+            userDao.addRoleToUser(userId,roleId);
+        }
     }
 
     @Override

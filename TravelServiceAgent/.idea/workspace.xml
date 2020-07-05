@@ -36,20 +36,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="proofread" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\pages" />
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp" />
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\img" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zht.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\img" />
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\pages" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.zht-ssm-web">
@@ -119,54 +119,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593532262749" />
-    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1593873355726">
+    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1593959312588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593873355726" />
+    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593959312588" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1593592175302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593592175302" />
-    <state width="1237" height="92" key="GridCell.Tab.0.bottom" timestamp="1593876241375">
+    <state width="1237" height="234" key="GridCell.Tab.0.bottom" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="92" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593876241375" />
-    <state width="1237" height="92" key="GridCell.Tab.0.center" timestamp="1593876241375">
+    <state width="1237" height="234" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="234" key="GridCell.Tab.0.center" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="92" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593876241375" />
-    <state width="1237" height="92" key="GridCell.Tab.0.left" timestamp="1593876241375">
+    <state width="1237" height="234" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="234" key="GridCell.Tab.0.left" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="92" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593876241375" />
-    <state width="1237" height="92" key="GridCell.Tab.0.right" timestamp="1593876241375">
+    <state width="1237" height="234" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="234" key="GridCell.Tab.0.right" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="92" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593876241375" />
-    <state width="1237" height="62" key="GridCell.Tab.1.bottom" timestamp="1593702188052">
+    <state width="1237" height="234" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="45" key="GridCell.Tab.1.bottom" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593702188052" />
-    <state width="1237" height="62" key="GridCell.Tab.1.center" timestamp="1593702188052">
+    <state width="1237" height="45" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="45" key="GridCell.Tab.1.center" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593702188052" />
-    <state width="1237" height="62" key="GridCell.Tab.1.left" timestamp="1593702188051">
+    <state width="1237" height="45" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="45" key="GridCell.Tab.1.left" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593702188051" />
-    <state width="1237" height="62" key="GridCell.Tab.1.right" timestamp="1593702188052">
+    <state width="1237" height="45" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state width="1237" height="45" key="GridCell.Tab.1.right" timestamp="1593965326262">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="62" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593702188052" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1593680608658">
+    <state width="1237" height="45" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593965326262" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1593923734893">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1593680608658" />
-    <state x="88" y="33" width="1027" height="618" key="find.popup" timestamp="1593876218399">
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1593923734893" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1593957673946">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="88" y="33" width="1027" height="618" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593876218399" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1593957673946" />
+    <state x="88" y="33" width="1027" height="618" key="find.popup" timestamp="1593956846223">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="88" y="33" width="1027" height="618" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1593956846223" />
     <state x="28" y="1" key="new project wizard" timestamp="1593507845120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -175,9 +179,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="535" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1593509134492" />
-    <state x="541" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1593761716268">
+    <state x="541" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1593941415272">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="541" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1593761716268" />
+    <state x="541" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1593941415272" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zht_web/src/main/java/com/zht/controller/OrderController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="orders" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

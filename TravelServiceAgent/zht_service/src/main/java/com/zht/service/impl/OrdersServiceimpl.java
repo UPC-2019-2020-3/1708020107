@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.SQLException;
 import java.util.List;
 
 @Service
@@ -35,4 +36,10 @@ public class OrdersServiceimpl implements iOrdersService {
     {
         return ordersDao.findById(ordersId);
     }
+
+    @Override
+    public void save(Orders orders) throws Exception {
+        ordersDao.save(orders);
+    }
+
 }

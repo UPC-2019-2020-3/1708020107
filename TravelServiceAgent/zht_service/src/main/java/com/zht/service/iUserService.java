@@ -13,9 +13,9 @@ public interface iUserService extends UserDetailsService {
 
     UserInfo findById(int userId) throws Exception;
 
-    List<Role> findOtherRoles(String userId) throws Exception;
+    List<Role> findOtherRoles(int userId) throws Exception;
 
-    void addRoleToUser(String userId, String[] roleIds) throws Exception;
+    void addRoleToUser(int userId, int[] roleIds) throws Exception;
 
     void deleteUser(int userId) throws Exception;
 }

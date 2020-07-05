@@ -1,6 +1,7 @@
 package com.zht.service.impl;
 
 import com.zht.dao.iRoleDao;
+import com.zht.domain.Permission;
 import com.zht.domain.Role;
 import com.zht.service.iRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,5 +36,18 @@ public class RoleServiceimpl implements iRoleService {
     public void deleteRoleById(int roleId) throws Exception {
         roleDao.deleteRoleById(roleId);
     }
+
+    @Override
+    public List<Permission> findOtherPermissions(int roleId) throws Exception {
+        return roleDao.findOtherPermissions(roleId);
+    }
+
+    @Override
+    public void addPermissionToRole(int roleId, int[] permissionIds) {
+        for(int permissionId:permissionIds){
+            roleDao.addPermissionToRole(roleId,permissionId);
+        }
+    }
+
 
 }

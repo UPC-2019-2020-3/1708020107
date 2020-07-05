@@ -50,4 +50,23 @@ public class UserController {
         return "redirect:findAll.do";
     }
 
+    @RequestMapping("/findUserByIdAndAllRole.do")
+    public ModelAndView findUserByIdAndAllRole(@RequestParam(name = "id") int userId) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        //1.根据用户id查询用户
+        UserInfo userInfo = userService.findById(userId);
+        //2.根据用户id查询可以添加的角色
+        List<Role> otherRoles = userService.findOtherRoles(userId);
+        mv.addObject("user", userInfo);
+        mv.addObject("roleList", otherRoles);
+        mv.setViewName("user-role-add");
+        return mv;
+    }
+
+    @RequestMapping("/addRoleToUser.do")
+    public String addRoleToUser(@RequestParam(name = "userId", required = true) int userId, @RequestParam(name = "ids", required = true) int[] roleIds) throws Exception {
+        userService.addRoleToUser(userId, roleIds);
+        return "redirect:findAll.do";
+    }
+
 }

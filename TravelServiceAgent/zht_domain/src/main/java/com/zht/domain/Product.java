@@ -12,7 +12,7 @@ public class Product {
     private String productNum;
     private String productName;
     private String cityName;
-    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
+    @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date departureTime;
     private String departureTimeStr;
     private double productPrice;
@@ -63,7 +63,7 @@ public class Product {
     public String getDepartureTimeStr() {
         if(departureTime!=null)
         {
-            departureTimeStr = DateUtils.date2String(departureTime,"yyyy-MM-dd HH:mm:ss");
+            departureTimeStr = DateUtils.date2String(departureTime,"yyyy-MM-dd");
         }
         return departureTimeStr;
     }

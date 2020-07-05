@@ -3,6 +3,7 @@ package com.zht.dao;
 import com.zht.domain.Product;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -21,5 +22,8 @@ public interface iProductDao {
     public Product findById(String id) throws Exception;
 
     @Delete("delete from product where id=#{productId}")
-    void deleteRoleById(int productId);
+    void deleteRoleById(int productId) throws Exception;
+
+    @Delete("delete from product where id=#{productId}")
+    void deleteProducts(@Param("productId") int productId) throws Exception;
 }

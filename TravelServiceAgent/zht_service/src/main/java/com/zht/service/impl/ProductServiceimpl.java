@@ -1,5 +1,6 @@
 package com.zht.service.impl;
 
+import com.github.pagehelper.PageHelper;
 import com.zht.dao.iProductDao;
 import com.zht.domain.Product;
 import com.zht.service.iProductService;
@@ -28,7 +29,14 @@ public class ProductServiceimpl implements iProductService {
     }
 
     @Override
-    public void deleteProductById(int productId) {
+    public void deleteProductById(int productId) throws Exception {
         productDao.deleteRoleById(productId);
+    }
+
+    @Override
+    public void deleteProducts(int[] productIds) throws Exception{
+        for(int productId:productIds){
+            productDao.deleteProducts(productId);
+        }
     }
 }

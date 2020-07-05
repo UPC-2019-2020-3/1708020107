@@ -10,5 +10,7 @@ public interface iProductService {
 
     void save(Product product)throws Exception;
 
-    void deleteProductById(int productId);
+    void deleteProductById(int productId) throws Exception;
+
+    void deleteProducts(int[] productIds) throws Exception;
 }

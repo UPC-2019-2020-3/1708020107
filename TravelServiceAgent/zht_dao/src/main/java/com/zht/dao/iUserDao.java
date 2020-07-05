@@ -1,5 +1,6 @@
 package com.zht.dao;
 
+import com.zht.domain.Role;
 import com.zht.domain.UserInfo;
 import org.apache.ibatis.annotations.*;
 
@@ -43,4 +44,9 @@ public interface iUserDao {
     @Delete("delete from users_role where userId=#{id}")
     void deleteFromUsers_role(int id) throws Exception;
 
+    @Select("select * from role where id not in (select roleId from users_role where userId=#{userId})")
+    List<Role> findOtherRoles(int userId);
+
+    @Insert("insert into users_role(userId,roleId) values(#{userId},#{roleId})")
+    void addRoleToUser(@Param("userId") int userId, @Param("roleId") int roleId) throws Exception;
 }

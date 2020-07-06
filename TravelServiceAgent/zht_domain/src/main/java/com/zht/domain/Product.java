@@ -19,6 +19,11 @@ public class Product {
     private String productDesc;
     private Integer productStatus;
     private String productStatusStr;
+    private int guideNum;
+    private int hotelNum;
+    private String productReturn;
+    private int peopleTotal;
+    private String timeTotal;
 
     public String getId() {
         return id;
@@ -109,5 +114,45 @@ public class Product {
 
     public void setProductStatusStr(String productStatusStr) {
         this.productStatusStr = productStatusStr;
+    }
+
+    public int getGuideNum() {
+        return guideNum;
+    }
+
+    public void setGuideNum(int guideNum) {
+        this.guideNum = guideNum;
+    }
+
+    public int getHotelNum() {
+        return hotelNum;
+    }
+
+    public void setHotelNum(int hotelNum) {
+        this.hotelNum = hotelNum;
+    }
+
+    public String getProductReturn() {
+        return productReturn;
+    }
+
+    public void setProductReturn(String productReturn) {
+        this.productReturn = productReturn;
+    }
+
+    public int getPeopleTotal() {
+        return peopleTotal;
+    }
+
+    public void setPeopleTotal(int peopleTotal) {
+        this.peopleTotal = peopleTotal;
+    }
+
+    public String getTimeTotal() {
+        return timeTotal;
+    }
+
+    public void setTimeTotal(String timeTotal) {
+        this.timeTotal = timeTotal;
     }
 }

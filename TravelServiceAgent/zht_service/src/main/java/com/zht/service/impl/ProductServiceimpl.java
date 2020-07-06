@@ -39,4 +39,15 @@ public class ProductServiceimpl implements iProductService {
             productDao.deleteProducts(productId);
         }
     }
+
+    @Override
+    public Product findById(int productId) throws Exception {
+        return productDao.findById(productId);
+    }
+
+    @Override
+    public void addReturn(int orderId, String productReturn) throws Exception {
+        productDao.addReturn(orderId,productReturn);
+        productDao.resetOrderStatus(orderId);
+    }
 }

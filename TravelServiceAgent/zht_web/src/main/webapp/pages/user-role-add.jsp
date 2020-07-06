@@ -105,11 +105,11 @@
 							<thead>
 								<tr>
 									<th class="" style="padding-right: 0px">
-									<input id="selall" 
+									<input id="selall"
 										type="checkbox" class="icheckbox_square-blue"></th>
 									<th class="sorting_asc">ID</th>
 									<th class="sorting">角色名称</th>
-									<th class="sorting">角色描述</th>									
+									<th class="sorting">角色描述</th>
 								</tr>
 							</thead>
 							<tbody>

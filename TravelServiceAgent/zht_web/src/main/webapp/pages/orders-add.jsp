@@ -109,23 +109,31 @@
                             <input type="text" class="form-control" placeholder="产品编号" name="productId">
                         </div>
 
-                        <div class="col-md-2 title">出发城市</div>
+                        <div class="col-md-2 title">支付方式</div>
                         <div class="col-md-4 data">
-                            <select class="form-control select2" style="width: 100%;">
-                        <option value="" selected="selected">Alabama</option>
-                        <option value="">Alaska</option>
-                        <option value="">California</option>
-                        <option value="">Delaware</option>
-                        <option value="">Tennessee</option>
-                        <option value="">Texas</option>
-                        <option value="">Washington</option>
-                    </select>
+                            <select class="form-control select2" style="width: 100%;"name="payType">
+                        <option value="2" selected="selected">-</option>
+                        <option value="0">微信</option>
+                        <option value="1">支付宝</option>
+                        </select>
                         </div>
                         <div class="col-md-2 title">出游人数</div>
                         <div class="col-md-4 data">
                             <input type="text" class="form-control" placeholder="出游人数" name="peopleCount">
                         </div>
-
+                        <div class="col-md-2 title">担保人账号</div>
+                        <div class="col-md-4 data">
+                            <input type="text" class="form-control" placeholder="担保人账号" name="memberId">
+                        </div>
+                        <div class="col-md-2 title">出发城市</div>
+                        <div class="col-md-4 data">
+                            <select class="form-control select2" style="width: 100%;" name="startCity">
+                        <option value="北京" selected="selected">北京</option>
+                        <option value="上海">上海</option>
+                        <option value="广州">广州</option>
+                        <option value="深圳">深圳</option>
+                        </select>
+                        </div>
                         <div class="col-md-2 title rowHeight2x">其他信息</div>
                         <div class="col-md-10 data rowHeight2x">
                             <textarea class="form-control" rows="3" placeholder="其他信息" name="orderDesc"></textarea>
@@ -136,7 +144,7 @@
 
 				<!--订单信息/--> <!--工具栏-->
 				<div class="box-tools text-center">
-					<button type="submit" class="btn bg-maroon"  >下一步</button>
+					<button type="submit" class="btn bg-maroon" onclick='confirm("支付成功后请点击确定")'>支付</button>
 					<button type="button" class="btn bg-default"
 						onclick="history.back(-1);">返回</button>
 				</div>

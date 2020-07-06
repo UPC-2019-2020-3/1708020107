@@ -13,4 +13,8 @@ public interface iProductService {
     void deleteProductById(int productId) throws Exception;
 
     void deleteProducts(int[] productIds) throws Exception;
+
+    Product findById(int productId) throws Exception;
+
+    void addReturn(int orderId,String productReturn) throws Exception;
 }

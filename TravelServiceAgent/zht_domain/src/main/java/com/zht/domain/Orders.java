@@ -24,6 +24,44 @@ public class Orders {
     private String orderDesc;
     private int auditStatus;
     private String auditStr;
+    private double orderPrice;
+    private String startCity;
+    private int finalStatus;
+    private String finalStatusStr;
+    private int writtenStatus;
+    private String writtenStatusStr;
+
+    public int getFinalStatus() {
+        return finalStatus;
+    }
+
+    public void setFinalStatus(int finalStatus) {
+        this.finalStatus = finalStatus;
+    }
+
+    public String getFinalStatusStr() {
+        if(finalStatus==0)
+        {
+            finalStatusStr = "未开始";
+        }
+        else if(finalStatus==1)
+        {
+            finalStatusStr = "正在进行";
+        }
+        else if(finalStatus==2)
+        {
+            finalStatusStr = "已结束";
+        }
+        else if(finalStatus==3)
+        {
+            finalStatusStr = "/";
+        }
+        return finalStatusStr;
+    }
+
+    public void setFinalStatusStr(String finalStatusStr) {
+        this.finalStatusStr = finalStatusStr;
+    }
 
     public String getId() {
         return id;
@@ -79,6 +117,10 @@ public class Orders {
         else if(orderStatus==1)
         {
             orderStatusStr = "已支付";
+        }
+        else if(orderStatus==2)
+        {
+            orderStatusStr = "关闭";
         }
         return orderStatusStr;
     }
@@ -180,10 +222,54 @@ public class Orders {
         {
             auditStr = "已审核";
         }
+        else
+        {
+            auditStr = "/";
+        }
         return auditStr;
     }
 
     public void setAuditStr(String auditStr) {
         this.auditStr = auditStr;
+    }
+
+    public double getOrderPrice() {
+        return orderPrice;
+    }
+
+    public void setOrderPrice(double orderPrice) {
+        this.orderPrice = orderPrice;
+    }
+
+    public String getStartCity() {
+        return startCity;
+    }
+
+    public void setStartCity(String startCity) {
+        this.startCity = startCity;
+    }
+
+    public int getWrittenStatus() {
+        return writtenStatus;
+    }
+
+    public void setWrittenStatus(int writtenStatus) {
+        this.writtenStatus = writtenStatus;
+    }
+
+    public String getWrittenStatusStr() {
+        if(writtenStatus==0)
+        {
+            writtenStatusStr = "未填写";
+        }
+        else if(writtenStatus==1)
+        {
+            writtenStatusStr = "已填写";
+        }
+        return writtenStatusStr;
+    }
+
+    public void setWrittenStatusStr(String writtenStatusStr) {
+        this.writtenStatusStr = writtenStatusStr;
     }
 }

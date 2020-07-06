@@ -1,7 +1,9 @@
 package com.zht.controller;
 
 import com.github.pagehelper.PageInfo;
+import com.zht.domain.Orders;
 import com.zht.domain.Product;
+import com.zht.domain.Traveller;
 import com.zht.service.iProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -30,6 +32,16 @@ public class ProductController {
         return mv;
     }
 
+    @RequestMapping("/findById.do")
+    public ModelAndView findById(@RequestParam(name = "id", required = true) int productId) throws Exception
+    {
+        ModelAndView mv = new ModelAndView();
+        Product product = productService.findById(productId);
+        mv.addObject("product",product);
+        mv.setViewName("product-show");
+        return mv;
+    }
+
     //添加产品
     @RequestMapping("/save.do")
     public String save(Product product) throws Exception{
@@ -46,6 +58,20 @@ public class ProductController {
     @RequestMapping("/deleteProducts.do")
     public String deleteProducts(@RequestParam(name = "ids", required = true) int[] productIds) throws Exception {
         productService.deleteProducts(productIds);
+        return "redirect:findAll.do";
+    }
+
+    @RequestMapping("/addReturnPage.do")
+    public ModelAndView addReturnPage(@RequestParam(name = "id", required = true) int ordersId) throws Exception {
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("ordersId", ordersId);
+        mv.setViewName("product-return-add");
+        return mv;
+    }
+
+    @RequestMapping("/addReturn.do")
+    public String addReturn(@RequestParam(name = "ordersId", required = true) int orderId,@RequestParam(name = "productReturn", required = true) String productReturn) throws Exception {
+        productService.addReturn(orderId,productReturn);
         return "redirect:findAll.do";
     }
 

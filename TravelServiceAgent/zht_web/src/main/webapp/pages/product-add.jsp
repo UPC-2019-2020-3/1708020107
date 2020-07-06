@@ -143,6 +143,29 @@
 							</select>
 						</div>
 
+						<div class="col-md-2 title">导游编号</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" placeholder="导游编号"
+								name="guideNum" value="">
+						</div>
+
+						<div class="col-md-2 title">酒店编号</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" placeholder="酒店编号"
+								name="hotelNum" value="">
+						</div>
+
+						<div class="col-md-2 title">限定总人数</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" placeholder="总人数"
+								name="peopleTotal" value="">
+						</div>
+
+						<div class="col-md-2 title">时间总长</div>
+						<div class="col-md-4 data">
+							<input type="text" class="form-control" placeholder="总时间"
+								name="timeTotal" value="">a
+						</div>
 						<div class="col-md-2 title rowHeight2x">其他信息</div>
 						<div class="col-md-10 data rowHeight2x">
 							<textarea class="form-control" rows="3" placeholder="其他信息"

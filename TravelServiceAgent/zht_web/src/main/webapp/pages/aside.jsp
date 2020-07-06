@@ -39,7 +39,10 @@
 						href="${pageContext.request.contextPath}/orders/findAll.do?paga=1&size=5"> <i
 							class="fa fa-circle-o"></i> 订单管理
 					</a></li>
-
+					<li id="system-setting"><a
+						href="${pageContext.request.contextPath}/traveller/findAll.do?paga=1&size=5"> <i
+							class="fa fa-circle-o"></i> 旅客管理
+					</a></li>
 				</ul></li>
 
 

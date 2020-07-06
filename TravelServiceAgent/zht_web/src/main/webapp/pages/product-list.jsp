@@ -248,7 +248,7 @@
 											<td>${product.productDesc }</td>
 											<td class="text-center">${product.productStatusStr }</td>
 											<td class="text-center">
-												<button type="button" class="btn bg-olive btn-xs">详情</button>
+												<button type="button" class="btn bg-olive btn-xs" onclick="location.href='${pageContext.request.contextPath}/product/findById.do?id=${product.id}'">详情</button>
 												<button type="button" class="btn bg-olive btn-xs">编辑</button>
 												<a href="${pageContext.request.contextPath}/product/deleteProduct.do?id=${product.id}" class="btn bg-olive btn-xs" onclick='confirm("你确认要删除吗？")'>删除</a>
 											</td>

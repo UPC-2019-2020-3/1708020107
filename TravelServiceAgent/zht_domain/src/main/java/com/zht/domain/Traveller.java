@@ -11,6 +11,7 @@ public class Traveller {
     private String credentialsNum;
     private Integer travellerType; //旅客类型(人群) 0 成人 1 儿童
     private String travellerTypeStr;
+    private String emailadd;
 
     public String getId() {
         return id;
@@ -102,4 +103,11 @@ public class Traveller {
         this.travellerTypeStr = travellerTypeStr;
     }
 
+    public String getEmailadd() {
+        return emailadd;
+    }
+
+    public void setEmailadd(String emailadd) {
+        this.emailadd = emailadd;
+    }
 }

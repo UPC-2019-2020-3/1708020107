@@ -105,7 +105,6 @@
 						<input type="text" class="form-control" placeholder="订单编号"
 							value="${orders.orderNum }" readonly="readonly">
 					</div>
-
 					<div class="col-md-2 title">下单时间</div>
 					<div class="col-md-4 data">
 						<div class="input-group date">
@@ -148,14 +147,28 @@
 
 					<div class="col-md-2 title rowHeight2x">其他信息</div>
 					<div class="col-md-10 data rowHeight2x">
-						<textarea class="form-control" rows="3" placeholder="其他信息">
-							${orders.orderDesc }
-						</textarea>
+						<textarea class="form-control" rows="3" placeholder="其他信息" readonly="readonly">${orders.orderDesc }</textarea>
 					</div>
 
 				</div>
 			</div>
-			<!--订单信息/--> <!--游客信息-->
+			<!--订单信息/-->
+            <div class="panel panel-default">
+				<div class="panel-heading">状态信息</div>
+				<div class="row data-type">
+
+					<div class="col-md-2 title">支付状态</div>
+					<div class="col-md-2 data text">${orders.orderStatusStr}</div>
+
+					<div class="col-md-2 title">审核状态</div>
+					<div class="col-md-2 data text">${orders.auditStr}</div>
+
+					<div class="col-md-2 title">完成进度</div>
+					<div class="col-md-2 data text">${orders.finalStatusStr}</div>
+
+				</div>
+			</div>
+			 <!--游客信息-->
 			<div class="panel panel-default">
 				<div class="panel-heading">游客信息</div>
 				<!--数据列表-->
@@ -223,6 +236,12 @@
 
 						<div class="col-md-2 title">金额</div>
 						<div class="col-md-4 data text">￥${orders.product.productPrice}</div>
+
+						<div class="col-md-2 title">出发城市</div>
+						<div class="col-md-4 data text">${orders.startCity}</div>
+
+						<div class="col-md-2 title">票务费用</div>
+						<div class="col-md-4 data text">￥</div>
 
 					</div>
 				</div>

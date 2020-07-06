@@ -119,9 +119,6 @@
 											onclick="location.href='${pageContext.request.contextPath}/pages/orders-add.jsp'">
 											<i class="fa fa-file-o"></i> 新建
 										</button>
-										<button type="button" class="btn btn-default" title="开启">
-											<i class="fa fa-check"></i> 审核
-										</button>
 										<button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();">
 											<i class="fa fa-refresh"></i> 刷新
 										</button>
@@ -142,9 +139,6 @@
 								class="table table-bordered table-striped table-hover dataTable">
 								<thead>
 									<tr>
-										<th class="" style="padding-right: 0px;"><input
-											id="selall" type="checkbox" class="icheckbox_square-blue">
-										</th>
 										<th class="sorting_asc">ID</th>
 										<th class="sorting_desc">订单编号</th>
 										<th class="sorting_asc sorting_asc_disabled">产品名称</th>
@@ -152,6 +146,7 @@
 										<th class="sorting">下单时间</th>
 										<th class="text-center sorting">订单状态</th>
 										<th class="text-center sorting">审核状态</th>
+										<th class="text-center sorting">完成进度</th>
 										<th class="text-center">操作</th>
 									</tr>
 								</thead>
@@ -160,18 +155,35 @@
 									<c:forEach items="${pageInfo.list}" var="orders">
 
 										<tr>
-											<td><input name="ids" type="checkbox" value="${orders.id}"></td>
 											<td>${orders.id }</td>
 											<td>${orders.orderNum }</td>
 											<td>${orders.product.productName }</td>
-											<td>${orders.product.productPrice }</td>
+											<td>${orders.orderPrice }</td>
 											<td>${orders.orderTimeStr }</td>
 											<td class="text-center">${orders.orderStatusStr }</td>
 											<td class="text-center">${orders.auditStr }</td>
 											<td class="text-center">
-												<button type="button" class="btn bg-olive btn-xs">审核</button>
+											<c:if test="${orders.finalStatus==2}"><c:if test="${orders.writtenStatus==0}">
+                                            <a href="${pageContext.request.contextPath}/product/addReturnPage.do?id=${orders.id}" class="btn bg-maroon btn-xs">填写反馈</a>
+                                            </c:if></c:if>
+                                            <c:if test="${orders.finalStatus==2}"><c:if test="${orders.writtenStatus==1}">
+											${orders.finalStatusStr }
+											</c:if></c:if>
+                                            <c:if test="${orders.finalStatus==0}">
+											${orders.finalStatusStr }
+											</c:if>
+                                            <c:if test="${orders.finalStatus==1}">
+											${orders.finalStatusStr }
+											</c:if>
+                                            <c:if test="${orders.finalStatus==3}">
+											${orders.finalStatusStr }
+											</c:if>
+											</td>
+											<td class="text-center">
+												<a href="${pageContext.request.contextPath}/orders/auditOrder.do?id=${orders.id}" class="btn bg-olive btn-xs" onclick='confirm("你确认要此订单通过审核吗？")'>审核</a>
 												<button type="button" class="btn bg-olive btn-xs" onclick="location.href='${pageContext.request.contextPath}/orders/findById.do?id=${orders.id}'">详情</button>
-												<button type="button" class="btn bg-olive btn-xs">编辑</button>
+												<a href="${pageContext.request.contextPath}/orders/findSpecific.do?id=${orders.id}" class="btn bg-olive btn-xs" >添加乘客</a>
+											    <a href="${pageContext.request.contextPath}/orders/closeOrder.do?id=${orders.id}" class="btn bg-olive btn-xs" onclick='confirm("你确认要关闭此订单吗？")'>关闭</a>
 											</td>
 										</tr>
 									</c:forEach>

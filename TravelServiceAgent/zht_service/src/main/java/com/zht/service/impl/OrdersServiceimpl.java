@@ -3,6 +3,7 @@ package com.zht.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.zht.dao.iOrdersDao;
 import com.zht.domain.Orders;
+import com.zht.domain.Traveller;
 import com.zht.service.iOrdersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -40,6 +41,31 @@ public class OrdersServiceimpl implements iOrdersService {
     @Override
     public void save(Orders orders) throws Exception {
         ordersDao.save(orders);
+        ordersDao.saveprice(orders);
+    }
+
+    @Override
+    public List<Traveller> findOtherTravellers(int ordersId) throws Exception {
+        return ordersDao.findOtherTravellers(ordersId);
+    }
+
+    @Override
+    public void addTraveller(int ordersId, int[] travellerIds) throws Exception {
+        for(int travellerId:travellerIds){
+            ordersDao.addTraveller(ordersId,travellerId);
+        }
+    }
+
+    @Override
+    public void auditOrder(int ordersId) throws Exception {
+        ordersDao.auditOrder(ordersId);
+    }
+
+    @Override
+    public void closeOrder(int ordersId) throws Exception {
+        ordersDao.closeOrderStatus(ordersId);
+        ordersDao.closeOrderAudit(ordersId);
+        ordersDao.closeOrderFinal(ordersId);
     }
 
 }

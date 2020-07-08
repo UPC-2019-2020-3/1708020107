@@ -1,6 +1,8 @@
 com\zht\controller\OrderController.class
 com\zht\controller\UserController.class
 com\zht\controller\TravellerController.class
-com\zht\controller\ProductController.class
 com\zht\controller\PermissionController.class
+com\zht\controller\GuideController.class
+com\zht\controller\HotelController.class
+com\zht\controller\ProductController.class
 com\zht\controller\RoleController.class

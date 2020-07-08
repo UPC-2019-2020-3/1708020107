@@ -3,9 +3,13 @@ com\zht\service\impl\RoleServiceimpl.class
 com\zht\service\iUserService.class
 com\zht\service\iOrdersService.class
 com\zht\service\iTravellerService.class
+com\zht\service\iHotelService.class
 com\zht\service\iPermissionService.class
 com\zht\service\iProductService.class
+com\zht\service\impl\HotelServiceimpl.class
 com\zht\service\impl\ProductServiceimpl.class
+com\zht\service\impl\GuideServiceimpl.class
+com\zht\service\iGuideService.class
 com\zht\service\iRoleService.class
 com\zht\service\impl\TravellerServiceimpl.class
 com\zht\service\impl\OrdersServiceimpl.class

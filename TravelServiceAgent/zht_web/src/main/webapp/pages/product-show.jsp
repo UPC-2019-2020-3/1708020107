@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版</title>
+<title>产品详情</title>
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
@@ -65,7 +65,7 @@
 	href="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-green sidebar-mini">
 
 	<div class="wrapper">
 
@@ -83,7 +83,7 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				订单管理 <small>全部订单</small>
+				产品管理 <small>产品详情</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="all-admin-index.html"><i
@@ -151,9 +151,9 @@
 							value="${product.timeTotal}" readonly="readonly">
 					</div>
 
-					<div class="col-md-2 title rowHeight2x">其他信息</div>
-					<div class="col-md-10 data rowHeight2x">
-						<textarea class="form-control" rows="3" placeholder="其他信息" readonly="readonly">${product.productDesc }</textarea>
+					<div class="col-md-2 title">简介</div>
+					<div class="col-md-10 data">
+						<textarea class="form-control" rows="1" placeholder="简介" readonly="readonly">${product.productDesc }</textarea>
 					</div>
 					<div class="col-md-2 title rowHeight2x">反馈信息</div>
 					<div class="col-md-10 data rowHeight2x">
@@ -168,21 +168,21 @@
 				<div class="panel-heading">导游信息</div>
 				<div class="row data-type">
 
-					<div class="col-md-2 title">工号</div>
-					<div class="col-md-4 data text">${product.guideNum}</div>
+					<div class="col-md-2 title">资格证编号</div>
+					<div class="col-md-4 data text">${product.guide.guidePass}</div>
 
 					<div class="col-md-2 title">姓名</div>
-					<div class="col-md-4 data text"></div>
+					<div class="col-md-4 data text">${product.guide.guideName}</div>
 
-					<div class="col-md-2 title">手机号</div>
-					<div class="col-md-4 data text"></div>
+					<div class="col-md-2 title">手机</div>
+					<div class="col-md-4 data text">${product.guide.guidePhone}</div>
 
-					<div class="col-md-2 title">资格证编号</div>
-					<div class="col-md-4 data text"></div>
+					<div class="col-md-2 title">邮箱</div>
+					<div class="col-md-4 data text">${product.guide.guideEmail}</div>
 
 					<div class="col-md-2 title rowHeight2x">个人介绍</div>
 					<div class="col-md-10 data rowHeight2x">
-						<textarea class="form-control" rows="3" placeholder="个人介绍" readonly="readonly"></textarea>
+						<textarea class="form-control" rows="3" placeholder="个人介绍" readonly="readonly">${product.guide.guideDesc}</textarea>
 					</div>
 				</div>
 			</div>
@@ -195,14 +195,14 @@
 					<div class="col-md-4 data text">${product.hotelNum}</div>
 
 					<div class="col-md-2 title">酒店名称</div>
-					<div class="col-md-4 data text"></div>
+					<div class="col-md-4 data text">${product.hotel.hotelName}</div>
 
 					<div class="col-md-2 title">地址</div>
-					<div class="col-md-10 data text"></div>
+					<div class="col-md-10 data text">${product.hotel.hotelAddr}</div>
 
 					<div class="col-md-2 title rowHeight2x">酒店介绍</div>
 					<div class="col-md-10 data rowHeight2x">
-						<textarea class="form-control" rows="3" placeholder="酒店介绍" readonly="readonly"></textarea>
+						<textarea class="form-control" rows="3" placeholder="酒店介绍" readonly="readonly">${product.hotel.hotelDesc}</textarea>
 					</div>
 				</div>
 			</div>
@@ -222,7 +222,7 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 		<div class="pull-right hidden-xs">
-			<b>Version</b> 1.0.8
+			<b>Version</b> 7.8
 		</div>
 		<strong>Copyright &copy; 2017-2020 <a
 			href="http://www.baidu.com">Andrew ZHT</a>.

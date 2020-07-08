@@ -7,7 +7,7 @@
 <!-- 页面meta -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>数据 - AdminLTE2定制版</title>
+<title>乘客添加</title>
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
@@ -63,7 +63,7 @@
 	href="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
 </head>
 
-<body class="hold-transition skin-purple sidebar-mini">
+<body class="hold-transition skin-green sidebar-mini">
 
 	<div class="wrapper">
 
@@ -80,14 +80,14 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				用户管理 <small>添加角色表单</small>
+				订单管理 <small>添加乘客表单</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
 						class="fa fa-dashboard"></i> 首页</a></li>
 				<li><a
-					href="${pageContext.request.contextPath}/orders/findAll.do">用户管理</a></li>
-				<li class="active">添加角色表单</li>
+					href="${pageContext.request.contextPath}/orders/findAll.do">订单管理</a></li>
+				<li class="active">添加乘客表单</li>
 			</ol>
 			</section>
 			<!-- 内容头部 /-->
@@ -143,10 +143,10 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 		<div class="pull-right hidden-xs">
-			<b>Version</b> 1.0.8
+			<b>Version</b> 7.8
 		</div>
-		<strong>Copyright &copy; 2014-2017 <a
-			href="http://www.itcast.cn">研究院研发部</a>.
+		<strong>Copyright &copy; 2017-2020 <a
+			href="http://www.itcast.cn">Andrew ZHT</a>.
 		</strong> All rights reserved. </footer>
 		<!-- 底部导航 /-->
 

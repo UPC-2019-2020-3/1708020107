@@ -24,6 +24,8 @@ public class Product {
     private String productReturn;
     private int peopleTotal;
     private String timeTotal;
+    private Guide guide;
+    private Hotel hotel;
 
     public String getId() {
         return id;
@@ -154,5 +156,21 @@ public class Product {
 
     public void setTimeTotal(String timeTotal) {
         this.timeTotal = timeTotal;
+    }
+
+    public Guide getGuide() {
+        return guide;
+    }
+
+    public void setGuide(Guide guide) {
+        this.guide = guide;
+    }
+
+    public Hotel getHotel() {
+        return hotel;
+    }
+
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
     }
 }

@@ -2,6 +2,8 @@ com\zht\domain\Permission.class
 com\zht\domain\Product.class
 com\zht\domain\Member.class
 com\zht\domain\UserInfo.class
+com\zht\domain\Hotel.class
 com\zht\domain\Traveller.class
+com\zht\domain\Guide.class
 com\zht\domain\Orders.class
 com\zht\domain\Role.class

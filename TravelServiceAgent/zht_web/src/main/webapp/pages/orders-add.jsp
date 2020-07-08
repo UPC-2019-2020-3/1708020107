@@ -6,7 +6,7 @@
 <!-- 页面meta -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>数据 - AdminLTE2定制版</title>
+<title>订单添加</title>
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
@@ -62,7 +62,7 @@
 	href="${pageContext.request.contextPath}/plugins/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
 </head>
 
-<body class="hold-transition skin-purple sidebar-mini">
+<body class="hold-transition skin-green sidebar-mini">
 
 	<div class="wrapper">
 
@@ -79,7 +79,7 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 			<h1>
-				产品管理 <small>产品表单</small>
+				订单管理 <small>订单添加</small>
 			</h1>
 			<ol class="breadcrumb">
 				<li><a href="${pageContext.request.contextPath}/index.jsp"><i
@@ -113,8 +113,8 @@
                         <div class="col-md-4 data">
                             <select class="form-control select2" style="width: 100%;"name="payType">
                         <option value="2" selected="selected">-</option>
-                        <option value="0">微信</option>
-                        <option value="1">支付宝</option>
+                        <option value="1">微信</option>
+                        <option value="0">支付宝</option>
                         </select>
                         </div>
                         <div class="col-md-2 title">出游人数</div>
@@ -157,9 +157,9 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 		<div class="pull-right hidden-xs">
-			<b>Version</b> 1.0.8
+			<b>Version</b> 7.8
 		</div>
-		<strong>Copyright &copy; 2014-2017 <a
+		<strong>Copyright &copy; 2017-2020 <a
 			href="http://www.baidu.com">Andrew ZHT</a>.
 		</strong> All rights reserved. </footer>
 		<!-- 底部导航 /-->

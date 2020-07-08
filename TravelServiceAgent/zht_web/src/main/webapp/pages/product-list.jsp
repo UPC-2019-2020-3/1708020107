@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>产品管理</title>
+<title>产品数据</title>
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
@@ -160,11 +160,11 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 				<h1>
-					产品数据管理<small>数据列表</small>
+					产品管理<small>产品数据</small>
 				</h1>
 				<ol class="breadcrumb">
 					<li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
-					<li><a href="#">产品数据管理</a></li>
+					<li><a href="#">产品管理</a></li>
 					<li class="active">数据列表</li>
 				</ol>
 			</section>
@@ -227,7 +227,7 @@
 										<th class="sorting_desc sorting_desc_disabled">出发城市</th>
 										<th class="sorting">出发时间</th>
 										<th class="text-center sorting">产品价格</th>
-										<th class="sorting">产品描述</th>
+										<th class="sorting">产品简述</th>
 										<th class="text-center sorting">状态</th>
 										<th class="text-center">操作</th>
 									</tr>
@@ -249,7 +249,7 @@
 											<td class="text-center">${product.productStatusStr }</td>
 											<td class="text-center">
 												<button type="button" class="btn bg-olive btn-xs" onclick="location.href='${pageContext.request.contextPath}/product/findById.do?id=${product.id}'">详情</button>
-												<button type="button" class="btn bg-olive btn-xs">编辑</button>
+												<a href="${pageContext.request.contextPath}/product/openProduct.do?id=${product.id}" class="btn bg-olive btn-xs" onclick='confirm("你确认要开启此产品吗？")'>开启</a>
 												<a href="${pageContext.request.contextPath}/product/deleteProduct.do?id=${product.id}" class="btn bg-olive btn-xs" onclick='confirm("你确认要删除吗？")'>删除</a>
 											</td>
 										</tr>
@@ -276,9 +276,9 @@
 
 					<!-- .box-footer-->
                     					<div class="box-footer">
-                    						<div class="pull-left">
+                    						<div class="box-tools pull-left">
                     							<div class="form-group form-inline">
-                    								总共2 页，共14 条数据。 每页 <select class="form-control">
+                    								每页 <select class="form-control">
                     									<option>1</option>
                     									<option>2</option>
                     									<option>3</option>
@@ -287,21 +287,15 @@
                     								</select> 条
                     							</div>
                     						</div>
-
                     						<div class="box-tools pull-right">
                     							<ul class="pagination">
                     								<li><a href="#" aria-label="Previous">首页</a></li>
                     								<li><a href="#">上一页</a></li>
                     								<li><a href="#">1</a></li>
-                    								<li><a href="#">2</a></li>
-                    								<li><a href="#">3</a></li>
-                    								<li><a href="#">4</a></li>
-                    								<li><a href="#">5</a></li>
                     								<li><a href="#">下一页</a></li>
                     								<li><a href="#" aria-label="Next">尾页</a></li>
                     							</ul>
                     						</div>
-
                     					</div>
                     					<!-- /.box-footer-->
 
@@ -320,9 +314,9 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 			<div class="pull-right hidden-xs">
-				<b>Version</b> 1.0.8
+				<b>Version</b> 7.8
 			</div>
-			<strong>Copyright &copy; 2014-2017 <a
+			<strong>Copyright &copy; 2017-2020 <a
 				href="http://www.baidu.com">Andrew ZHT</a>.
 			</strong> All rights reserved.
 		</footer>

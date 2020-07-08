@@ -75,4 +75,10 @@ public class ProductController {
         return "redirect:findAll.do";
     }
 
+    @RequestMapping("/openProduct.do")
+    public String openProduct(@RequestParam(name="id",required = true) int productId) throws Exception {
+        productService.openProductById(productId);
+        return "redirect:findAll.do";
+    }
+
 }

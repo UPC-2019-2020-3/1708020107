@@ -17,4 +17,6 @@ public interface iProductService {
     Product findById(int productId) throws Exception;
 
     void addReturn(int orderId,String productReturn) throws Exception;
+
+    void openProductById(int productId) throws Exception;
 }

@@ -19,6 +19,7 @@ public class Orders {
     private int ProductId;
     private List<Traveller> travellers;
     private Member member;
+    private int memberId;
     private Integer payType;
     private String payTypeStr;
     private String orderDesc;
@@ -110,17 +111,20 @@ public class Orders {
     }
 
     public String getOrderStatusStr() {
-        if(orderStatus==0)
+        if(payType==2)
         {
             orderStatusStr = "未支付";
         }
-        else if(orderStatus==1)
+        else
         {
+            if(orderStatus==1)
+            {
             orderStatusStr = "已支付";
-        }
-        else if(orderStatus==2)
-        {
+            }
+            else if(orderStatus==2)
+            {
             orderStatusStr = "关闭";
+            }
         }
         return orderStatusStr;
     }
@@ -271,5 +275,13 @@ public class Orders {
 
     public void setWrittenStatusStr(String writtenStatusStr) {
         this.writtenStatusStr = writtenStatusStr;
+    }
+
+    public int getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(int memberId) {
+        this.memberId = memberId;
     }
 }

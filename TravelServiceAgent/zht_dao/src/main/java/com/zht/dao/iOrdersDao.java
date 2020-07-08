@@ -48,7 +48,7 @@ public interface iOrdersDao {
     })
     public Orders findById(int ordersId) throws Exception;
 
-    @Insert("insert into orders(orderNum,peopleCount,orderDesc,productId,memberId,auditStatus,orderStatus,payType，memberId,startcity) values(#{orderNum},#{peopleCount},#{orderDesc},#{productId},'1','0','0',#{payType},#{memberId},#{startCity})")
+    @Insert("insert into orders(orderNum,peopleCount,orderDesc,productId,memberId,auditStatus,orderStatus,payType,startcity) values(#{orderNum},#{peopleCount},#{orderDesc},#{productId},'1','0','1',#{payType},#{startCity})")
     void save(Orders orders) throws Exception;
 
     @Update("update orders set orderPrice = #{peopleCount}*(SELECT productPrice from product where id = #{productId}) WHERE orderNum=#{orderNum}")
@@ -63,7 +63,7 @@ public interface iOrdersDao {
     @Update("update orders set auditstatus = 1 where id = #{ordersId}")
     void auditOrder(@Param("ordersId") int ordersId) throws Exception;
 
-    @Update("update orders set orderstatus = 2 where id = #{ordersId}")
+    @Update("update orders set orderstatus = 2,paytype = 3 where id = #{ordersId}")
     void closeOrderStatus(@Param("ordersId")int ordersId) throws Exception;
 
     @Update("update orders set auditstatus = 2 where id = #{ordersId}")

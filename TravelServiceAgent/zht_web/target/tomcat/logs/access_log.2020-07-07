@@ -1,8 +1,0 @@
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:11:51 +0800] "GET /zht_web HTTP/1.1" 302 - http-bio-8888-exec-1 0
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:11:51 +0800] "GET /zht_web/ HTTP/1.1" 302 - http-bio-8888-exec-3 76
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:11:52 +0800] "GET /zht_web/login.jsp HTTP/1.1" 200 2635 http-bio-8888-exec-4 987
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:11:58 +0800] "POST /zht_web/login.do HTTP/1.1" 200 12919 http-bio-8888-exec-5 1373
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:12:02 +0800] "GET /zht_web/orders/findAll.do?paga=1&size=5 HTTP/1.1" 200 22306 http-bio-8888-exec-6 870
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:12:03 +0800] "GET /zht_web/product/addReturnPage.do?id=5 HTTP/1.1" 200 12252 http-bio-8888-exec-8 188
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:12:12 +0800] "POST /zht_web/product/addReturn.do HTTP/1.1" 302 - http-bio-8888-exec-9 57
-0:0:0:0:0:0:0:1 - - [07/Jul/2020:01:12:12 +0800] "GET /zht_web/product/findAll.do HTTP/1.1" 200 24050 http-bio-8888-exec-9 303

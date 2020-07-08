@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,17 +39,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\img" />
-      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zht.utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\pages" />
       <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp" />
       <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zht.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent\zht_web\src\main\webapp\img" />
+      <recent name="C:\Users\Andrew\Desktop\信息系统开发综合实训\trunk\TravelServiceAgent" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.zht-ssm-web">
@@ -119,30 +119,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593532262749" />
-    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1594052802374">
+    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser" timestamp="1594181128221">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594052802374" />
+    <state x="766" y="28" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594181128221" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1593592175302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593592175302" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1594055546423">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1594226350652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594055546423" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1594055546423">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594226350652" />
+    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1594226350652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594055546423" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1594055546422">
+    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594226350652" />
+    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1594226350652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594055546422" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1594055546423">
+    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594226350652" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1594226350652">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594055546423" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594226350652" />
     <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1594055546423">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -171,10 +171,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="259" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1594013964988" />
-    <state x="39" y="45" width="1027" height="618" key="find.popup" timestamp="1594052162029">
+    <state x="41" y="21" width="1027" height="618" key="find.popup" timestamp="1594177840788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="39" y="45" width="1027" height="618" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1594052162029" />
+    <state x="41" y="21" width="1027" height="618" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1594177840788" />
     <state x="28" y="1" key="new project wizard" timestamp="1593507845120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

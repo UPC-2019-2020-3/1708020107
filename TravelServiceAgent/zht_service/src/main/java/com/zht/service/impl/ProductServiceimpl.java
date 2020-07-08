@@ -50,4 +50,9 @@ public class ProductServiceimpl implements iProductService {
         productDao.addReturn(orderId,productReturn);
         productDao.resetOrderStatus(orderId);
     }
+
+    @Override
+    public void openProductById(int productId) throws Exception {
+        productDao.openProductById(productId);
+    }
 }

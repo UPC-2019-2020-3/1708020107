@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版</title>
+<title>订单管理</title>
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
@@ -87,12 +87,12 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 				<h1>
-					订单数据管理 <small>数据列表</small>
+					订单管理 <small>订单数据</small>
 				</h1>
 				<ol class="breadcrumb">
 					<li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
-					<li><a href="#">数据管理</a></li>
-					<li class="active">数据列表</li>
+					<li><a href="#">订单管理</a></li>
+					<li class="active">订单数据</li>
 				</ol>
 			</section>
 			<!-- 内容头部 /-->
@@ -257,10 +257,10 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 			<div class="pull-right hidden-xs">
-				<b>Version</b> 1.0.8
+				<b>Version</b> 7.8
 			</div>
-			<strong>Copyright &copy; 2014-2017 <a
-				href="http://www.itcast.cn">研究院研发部</a>.
+			<strong>Copyright &copy; 2017-2020 <a
+				href="http://www.itcast.cn">Andrew ZHT</a>.
 			</strong> All rights reserved.
 		</footer>
 		<!-- 底部导航 /-->

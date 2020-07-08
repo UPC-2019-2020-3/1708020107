@@ -9,7 +9,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>产品管理</title>
+<title>旅客管理</title>
 <meta name="description" content="AdminLTE2定制版">
 <meta name="keywords" content="AdminLTE2定制版">
 
@@ -160,12 +160,12 @@
 			<!-- 内容头部 -->
 			<section class="content-header">
 				<h1>
-					旅客数据管理<small>数据列表</small>
+					旅客管理<small>旅客数据</small>
 				</h1>
 				<ol class="breadcrumb">
 					<li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
-					<li><a href="#">旅客数据管理</a></li>
-					<li class="active">数据列表</li>
+					<li><a href="#">旅客管理</a></li>
+					<li class="active">旅客数据</li>
 				</ol>
 			</section>
 			<!-- 内容头部 /-->
@@ -293,9 +293,9 @@
 		<!-- 底部导航 -->
 		<footer class="main-footer">
 			<div class="pull-right hidden-xs">
-				<b>Version</b> 1.0.8
+				<b>Version</b> 7.8
 			</div>
-			<strong>Copyright &copy; 2014-2017 <a
+			<strong>Copyright &copy; 2017-2020 <a
 				href="http://www.baidu.com">Andrew ZHT</a>.
 			</strong> All rights reserved.
 		</footer>

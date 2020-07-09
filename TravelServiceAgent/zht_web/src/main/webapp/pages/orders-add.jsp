@@ -7,8 +7,8 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>订单添加</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<meta name="description" content="ordersadd">
+<meta name="keywords" content="ordersadd">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta

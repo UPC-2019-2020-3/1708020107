@@ -10,8 +10,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>酒店数据</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<meta name="description" content="hotel">
+<meta name="keywords" content="hotel">
 
 <!-- Tell the browser to be responsive to screen width -->
 <meta

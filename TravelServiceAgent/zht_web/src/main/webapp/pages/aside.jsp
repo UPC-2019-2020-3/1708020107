@@ -11,7 +11,7 @@
 					class="img-circle" alt="User Image">
 			</div>
 			<div class="pull-left info">
-				<p>Andrew</p>
+				<p>Admin</p>
 				<a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
 			</div>
 		</div>
@@ -70,7 +70,7 @@
 					</a></li>
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/role/findAll.do"> <i
-							class="fa fa-circle-o"></i> 角色管理
+							class="fa fa-circle-o"></i> 职位管理
 					</a></li>
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/permission/findAll.do">
